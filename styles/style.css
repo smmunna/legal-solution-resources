@@ -110,3 +110,36 @@ header{
 }
 
 /* Header End */
+
+/* Section 01 Start */
+    .section-1{
+        padding: 30px 100px;
+    }
+    .card{
+        padding: 20px;
+        border: hidden;
+        border-radius: 0;
+    }
+  .card-1,.card-4,.card-5{
+    border-right: 1px solid black;
+  }
+  .card-1,.card-2,.card-3{
+    border-bottom: 1px solid black;
+  }
+    .card img{
+        height: 50px;
+        width: 50px;
+    }
+    .card:hover{
+        background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);;
+    }
+    .section1-p2-description{
+        padding: 0px 250px;
+        font-size: 1.1vw;
+        font-family: var(--descriptionFonts);
+        color: var(--secondaryColor);
+    }
+    .card-text{
+        color: var(--secondaryColor);
+    }
+/* Section 01 End */

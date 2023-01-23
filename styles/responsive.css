@@ -13,6 +13,21 @@
     .header-search button {
         width: fit-content;
     }
+
+    /* Section 01 MAIN */
+    .section-1{
+        padding: 30px 20px;
+    }
+    .card{
+        border: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.29);
+    }
+    .section1-p2-description{
+        text-align: left;
+        padding: 0px 2px;
+        font-size: 2.1vw;
+    }
+    /* Section 01 End */
 }
 
 /* FOR Potrait,small, medium and large Mobile Devices */
@@ -24,8 +39,34 @@ header{
 .header-section{
     padding: 50px 10px;
 }
+.header-title{
+    padding: 12px;
+    text-align: left;
+}
+.hedaer-description{
+    padding: 12px;
+    text-align: left;
+}
 .header-search button {
     width: fit-content;
 }
+
+
+/* Main */
+
+/* Section 01 Start */
+.section-1{
+    padding: 30px 20px;
+}
+.card{
+    border: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+}
+.section1-p2-description{
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 3.1vw;
+}
+/* Section 01 End */
 
 }
