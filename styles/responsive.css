@@ -7,6 +7,12 @@
     header{
         padding: 5px 0px;
     }
+    .header-section{
+        padding: 50px 10px;
+    }
+    .header-search button {
+        width: fit-content;
+    }
 }
 
 /* FOR Potrait,small, medium and large Mobile Devices */
@@ -14,6 +20,12 @@
     /* Header Start */
 header{
     padding: 5px 0px;
+}
+.header-section{
+    padding: 50px 10px;
+}
+.header-search button {
+    width: fit-content;
 }
 
 }

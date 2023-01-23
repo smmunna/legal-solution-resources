@@ -71,6 +71,42 @@ header{
 }
 /* End of navar */
 
+/* Header Section */
+.header-section{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.735),rgba(18, 16, 16, 0.187)),url('../images/banner.png');
+    background-size: cover;
+    color: var(--teritaryColor);
+    padding: 150px 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+.header-title{
+    font-family: var(--headingFonts);
+    color: var(--teritaryColor);
+}
+.header-description{
+    font-family: var(--descriptionFonts);
+    color: var(--secondaryColor);
 
+}
+.header-search input{
+    padding: 10px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: var(--teritaryColor);
+    width: 60%;
+}
+.header-search input:focus{
+    outline: transparent;
+}
+.header-search button {
+    padding: 10px;
+    border: hidden;
+    background-color: var(--quaternaryColor);
+    border-radius: 10px;
+    color: var(--teritaryColor);
+    width: 20%;
+    margin-left: 12px;
+}
 
 /* Header End */
