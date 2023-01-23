@@ -1,0 +1,19 @@
+/* ---------------------------------------
+            RESPONSIVE DESIGN
+   ---------------------------------------*/
+
+/* FOR Tablet and Landscape Devices */
+@media only screen and (min-width:577px) and (max-width:992px){
+    header{
+        padding: 5px 0px;
+    }
+}
+
+/* FOR Potrait,small, medium and large Mobile Devices */
+@media only screen and (max-width:576px){
+    /* Header Start */
+header{
+    padding: 5px 0px;
+}
+
+}

@@ -1,0 +1,76 @@
+/* External Fonts from Google-Fonts*/
+/* Font- EB Garamond */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+/* Font- Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* Defining Global Styles */
+:root{
+    /* Fonts */
+    --headingFonts:'EB Garamond', serif;
+    --descriptionFonts:'Poppins', sans-serif;
+    /* Color */
+    --primaryColor:#414040;
+    --secondaryColor:#707070;
+    --teritaryColor:white;
+    --quaternaryColor:#B68C5A;
+    /* For Footer Only */
+    --quinaryColor:#CFCFCF;
+
+}
+
+/* Header Start */
+header{
+    padding: 30px 100px;
+}
+.nav-link{
+    color: var(--secondaryColor);
+}
+.nav-link:hover{
+    color: var(--secondaryColor);
+}
+.nav-link:focus{
+    color: rgba(0, 0, 255, 0.658);
+}
+.navbar-nav li{
+    padding: 0px 20px;
+}
+.navbar-toggler{
+    border: hidden;
+    background: linear-gradient(rgba(255, 0, 0, 0.228),rgba(0, 0, 255, 0.151));
+    
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-button{
+    border: hidden;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--quaternaryColor);
+    color: var(--teritaryColor);
+    font-weight: bold;
+    font-family: var(--descriptionFonts);
+    letter-spacing: 1.5px;
+}
+.btn-secondary{
+    border: hidden;
+    background-color: var(--quaternaryColor);
+    font-weight: bold;
+    font-family: var(--descriptionFonts);
+}
+.modal-title{
+    font-family: var(--headingFonts);
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+.modal-body{
+    font-family: var(--descriptionFonts);
+    color: var(--secondaryColor);
+}
+/* End of navar */
+
+
+
+/* Header End */
