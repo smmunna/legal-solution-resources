@@ -115,6 +115,9 @@ header{
     .section-1{
         padding: 30px 100px;
     }
+    .section1-p1-heading{
+        font-family: var(--headingFonts);
+    }
     .card{
         padding: 20px;
         border: hidden;
@@ -152,6 +155,7 @@ header{
  }
  .section2-heading{
     font-family: var(--headingFonts);
+    color: var(--primaryColor);
  }
  .section2-description{
     font-family: var(--descriptionFonts);
@@ -202,3 +206,10 @@ header{
     font-size: 2vw;
 }
 /* Section 02 End */
+
+/* Section 03 Start */
+.section3-heading{
+    font-family: var(--headingFonts);
+    color: var(--primaryColor);
+}
+/* Section 03 End */
