@@ -68,6 +68,40 @@
     }
 
     /* Section 02 End */
+
+    /* Section 03 Start */
+    .section3 {
+        padding: 30px 20px;
+    }
+
+    .section3-description {
+        padding: 0px 0px;
+    }
+
+    .question-list {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .section3-question {
+        width: 100%;
+    }
+
+    button.accordion-button {
+        font-size: 2.5vw;
+    }
+
+    .accordion-body {
+        font-size: 1.8vw;
+        line-height: 1.8;
+        text-align: justify;
+    }
+
 }
 
 /* FOR Potrait,small, medium and large Mobile Devices */
@@ -153,4 +187,36 @@
 
     /* Section 02 End */
 
+    /* Section 03 Start */
+    .section3 {
+        padding: 30px 20px;
+    }
+
+    .section3-description {
+        padding: 0px 0px;
+    }
+
+    .question-list {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .section3-question {
+        width: 100%;
+    }
+
+    button.accordion-button {
+        font-size: 4vw;
+    }
+
+    .accordion-body {
+        font-size: 3vw;
+        line-height: 1.8;
+        text-align: justify;
+    }
 }
