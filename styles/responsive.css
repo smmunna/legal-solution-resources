@@ -3,71 +3,154 @@
    ---------------------------------------*/
 
 /* FOR Tablet and Landscape Devices */
-@media only screen and (min-width:577px) and (max-width:992px){
-    header{
+@media only screen and (min-width:577px) and (max-width:992px) {
+    header {
         padding: 5px 0px;
     }
-    .header-section{
+
+    .header-section {
         padding: 50px 10px;
     }
+
     .header-search button {
         width: fit-content;
     }
 
     /* Section 01 MAIN */
-    .section-1{
+    .section-1 {
         padding: 30px 20px;
     }
-    .card{
+
+    .card {
         border: hidden;
         border: 1px solid rgba(0, 0, 0, 0.29);
     }
-    .section1-p2-description{
+
+    .section1-p2-description {
         text-align: left;
         padding: 0px 2px;
         font-size: 2.1vw;
     }
+
     /* Section 01 End */
+
+
+    /* Section 02 Start */
+    .section2 {
+        padding: 30px 20px;
+    }
+
+    .section2-description {
+        padding: 0px 0px;
+    }
+
+    .carosoul-items1,
+    .carosoul-items2,
+    .carosoul-items3 {
+        padding: 80px 70px;
+    }
+
+    .fa-circle-chevron-left,
+    .fa-circle-chevron-right {
+        font-size: 3.5vw;
+    }
+
+    .carosoul-heading {
+        font-size: 3vw;
+    }
+
+    .carosoul-position {
+        font-size: 2.2vw;
+    }
+
+    .carosoul-description {
+        font-size: 1.6vw;
+    }
+
+    /* Section 02 End */
 }
 
 /* FOR Potrait,small, medium and large Mobile Devices */
-@media only screen and (max-width:576px){
+@media only screen and (max-width:576px) {
+
     /* Header Start */
-header{
-    padding: 5px 0px;
-}
-.header-section{
-    background-position: center;
-    padding: 50px 10px;
-}
-.header-title{
-    padding: 12px;
-    text-align: left;
-}
-.hedaer-description{
-    padding: 12px;
-    text-align: left;
-}
-.header-search button {
-    width: fit-content;
-}
+    header {
+        padding: 5px 0px;
+    }
+
+    .header-section {
+        background-position: center;
+        padding: 50px 10px;
+    }
+
+    .header-title {
+        padding: 12px;
+        text-align: left;
+    }
+
+    .hedaer-description {
+        padding: 12px;
+        text-align: left;
+    }
+
+    .header-search button {
+        width: fit-content;
+    }
 
 
-/* Main */
+    /* Main */
 
-/* Section 01 Start */
-.section-1{
-    padding: 30px 20px;
-}
-.card{
-    border: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.29);
-}
-.section1-p2-description{
-    text-align: left;
-    padding: 0px 2px;
-    font-size: 3.1vw;
-}
-/* Section 01 End */
+    /* Section 01 Start */
+    .section-1 {
+        padding: 30px 20px;
+    }
+
+    .card {
+        border: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.29);
+    }
+
+    .section1-p2-description {
+        text-align: left;
+        padding: 0px 2px;
+        font-size: 3.1vw;
+    }
+
+    /* Section 01 End */
+
+    /* Section 02 Start */
+    .section2 {
+        padding: 30px 20px;
+    }
+
+    .section2-description {
+        padding: 0px 0px;
+    }
+
+    .carosoul-items1,
+    .carosoul-items2,
+    .carosoul-items3 {
+        padding: 79px 52px;
+    }
+
+    .fa-circle-chevron-left,
+    .fa-circle-chevron-right {
+        font-size: 6vw;
+    }
+
+    .carosoul-heading {
+        font-size: 4vw;
+    }
+
+    .carosoul-position {
+        font-size: 3.2vw;
+    }
+
+    .carosoul-description {
+        font-size: 3vw;
+        text-align: left;
+    }
+
+    /* Section 02 End */
 
 }

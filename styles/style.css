@@ -143,3 +143,62 @@ header{
         color: var(--secondaryColor);
     }
 /* Section 01 End */
+
+
+/* Section 02 Start */
+
+ .section2{
+    padding: 30px 100px;
+ }
+ .section2-heading{
+    font-family: var(--headingFonts);
+ }
+ .section2-description{
+    font-family: var(--descriptionFonts);
+    color: var(--secondaryColor);
+    padding: 0px 250px;
+    line-height: 1.8;
+ }
+ .carosoul-items1,.carosoul-items2,.carosoul-items3{
+    text-align: center;
+    color: var(--teritaryColor);
+    padding: 200px 250px;
+    background-size: cover;
+    background-position: left;
+ }
+
+ .carosoul-items1{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.094),black),url('../images/slider-1.jpg');
+ }
+ .carosoul-items2{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.094),black),url('../images/slider-2.jpg');
+ }
+ .carosoul-items3{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.094),black),url('../images/slider-3.jpg');
+ }
+ .carosoul-comment-profile img{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+ }
+ .carosoul-heading{
+    font-family: var(--headingFonts);
+    margin-top: 12px;
+    font-size: 1.7vw;
+ }
+ .carosoul-position{
+    margin-bottom: 10px;
+    font-family: var(--descriptionFonts);
+    margin-top: 12px;
+    font-size: 1.2vw;
+    color: var(--quinaryColor);
+ }
+.carosoul-description{
+    font-family: var(--descriptionFonts);
+    color: var(--quinaryColor);
+}
+.fa-circle-chevron-left,.fa-circle-chevron-right{
+    font-size: 2vw;
+}
+/* Section 02 End */
