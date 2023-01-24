@@ -37,6 +37,7 @@ header{
     padding: 5px 0px;
 }
 .header-section{
+    background-position: center;
     padding: 50px 10px;
 }
 .header-title{
