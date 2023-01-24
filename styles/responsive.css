@@ -138,6 +138,20 @@
         border: none;
     }
 
+    /* Footer */
+    footer {
+        padding: 50px 30px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .footer-2 {
+        align-items: flex-start;
+    }
+
 }
 
 /* FOR Potrait,small, medium and large Mobile Devices */
@@ -294,14 +308,41 @@
     /* Section 04 End */
 
     /* Section 05 */
-    .section5{
+    .section5 {
         padding: 30px 10px;
     }
-    .our-sponser{
+
+    .our-sponser {
         padding: 20px 10px;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         text-align: center;
     }
-    
-       
+
+    /* Section 05 End */
+
+    /* footer start */
+
+    footer {
+        padding: 50px 20px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .footer-2 {
+        align-items: flex-start;
+    }
+
+    /* Footer End */
+
 }
+
+
+/* -------------------------------
+
+    Author: Minhazul Abedin Munna
+    Date: 24 January 2023 12:01am
+
+    -------------------------------*/

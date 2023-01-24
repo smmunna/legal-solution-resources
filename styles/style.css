@@ -411,21 +411,116 @@ button.accordion-button:focus {
 
 
 /* Section 05 Start */
-.section5{
+.section5 {
     padding: 30px 130px;
 }
-.our-sponser{
+
+.our-sponser {
     padding: 20px 200px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
 }
-.section5-heading{
+
+.section5-heading {
     font-family: var(--headingFonts);
     padding-bottom: 12px;
     border-bottom: 1px solid black;
 }
 
 /* Section 05 End */
+
+/* Footer Start */
+footer {
+    padding: 170px 80px;
+    background-color: #000;
+}
+
+.footer {
+    color: white;
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.footer-1-description {
+    padding: 20px 0px;
+    font-size: 1rem;
+    font-family: var(--descriptionFonts);
+    color: var(--quinaryColor);
+}
+
+.footer2-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.footer2-links li {
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.footer2-links li a {
+    text-decoration: none;
+    color: var(--quinaryColor);
+    font-family: var(--descriptionFonts);
+    margin-top: 5%
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact {
+    color: var(--quinaryColor);
+}
+
+.footer4-description {
+    color: var(--quinaryColor);
+}
+
+.input {
+    margin-top: 12px;
+}
+
+.input input {
+    padding: 12px;
+    /* width: 200px; */
+    border: hidden;
+
+}
+
+.input button {
+    border: hidden;
+    background-color: #B68C5A;
+    padding: 12px;
+    width: 15%;
+    border-radius: 12px;
+    margin-left: -5%;
+}
+
+.input input:focus {
+    outline: transparent;
+}
+
+.fa-paper-plane {
+    color: var(--teritaryColor);
+}
+
+/* Footer End */
+
+
+/* -------------------------------
+
+    Author: Minhazul Abedin Munna
+    Date: 24 January 2023 12:01am
+
+    -------------------------------*/
