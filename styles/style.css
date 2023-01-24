@@ -320,3 +320,112 @@ button.accordion-button:focus {
 }
 
 /* Section 03 End */
+
+/* Section 04 Start */
+.section4-heading {
+    text-align: center;
+    font-family: var(--headingFonts);
+    color: var(--primaryColor);
+}
+
+.section4-description {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1.5vw;
+    font-family: var(--descriptionFonts);
+    color: var(--secondaryColor);
+}
+
+.section4 {
+    padding: 30px 100px;
+}
+
+.section4-contact {
+    display: flex;
+    gap: 15px;
+
+}
+
+.section4-card-col1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid #000;
+}
+
+.section4-card-col3 {
+    border-right: 1px solid black;
+}
+
+.section4-card-col2 {
+    border-bottom: 1px solid black;
+}
+
+.section4-right-contact-form input {
+    margin-top: 15px;
+    width: 500px;
+    padding: 15px;
+}
+
+.my-input {
+    margin-left: 0%;
+}
+
+.my-input input {
+    border: hidden;
+    background-color: #F3F3F3;
+    ;
+    color: black;
+    border-radius: 12px;
+}
+
+.my-input input::placeholder {
+    color: black;
+}
+
+.my-input input:focus {
+    outline: transparent;
+}
+
+.large-input {
+    height: 120px;
+}
+
+.send-message {
+    margin-top: 12px;
+    padding: 15px;
+    width: 500px;
+    border: hidden;
+    background-color: var(--quaternaryColor);
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.section4-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Section 04 End */
+
+
+/* Section 05 Start */
+.section5{
+    padding: 30px 130px;
+}
+.our-sponser{
+    padding: 20px 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.section5-heading{
+    font-family: var(--headingFonts);
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+}
+
+/* Section 05 End */

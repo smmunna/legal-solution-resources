@@ -102,6 +102,42 @@
         text-align: justify;
     }
 
+
+    /* Section 4 Start */
+    .section4 {
+        padding: 30px 10px;
+    }
+
+    .section4-contact {
+        flex-direction: column;
+    }
+
+    .section4-right-contact-form input {
+        /* margin-top: 15px; */
+        width: 100%;
+        /* padding: 15px; */
+    }
+
+    .send-message {
+        width: 100%;
+    }
+
+    .section4-description {
+        font-size: 2vw
+    }
+
+    .section4-card-col1 {
+        border: none;
+    }
+
+    .section4-card-col3 {
+        border: none;
+    }
+
+    .section4-card-col2 {
+        border: none;
+    }
+
 }
 
 /* FOR Potrait,small, medium and large Mobile Devices */
@@ -219,4 +255,53 @@
         line-height: 1.8;
         text-align: justify;
     }
+
+    /* Section 4 Start */
+    .section4 {
+        padding: 30px 10px;
+    }
+
+    .section4-contact {
+        flex-direction: column;
+    }
+
+    .section4-right-contact-form input {
+        /* margin-top: 15px; */
+        width: 100%;
+        /* padding: 15px; */
+    }
+
+    .send-message {
+        width: 100%;
+    }
+
+    .section4-description {
+        font-size: 4.5vw
+    }
+
+    .section4-card-col1 {
+        border: none;
+    }
+
+    .section4-card-col3 {
+        border: none;
+    }
+
+    .section4-card-col2 {
+        border: none;
+    }
+
+    /* Section 04 End */
+
+    /* Section 05 */
+    .section5{
+        padding: 30px 10px;
+    }
+    .our-sponser{
+        padding: 20px 10px;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+    
+       
 }
